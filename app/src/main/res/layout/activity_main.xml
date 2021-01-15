@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/select_file_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择文件" />
+
+        <TextView
+            android:id="@+id/url_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/select_file_bt" />
+
+        <com.pengjie0668.ffmpeg.demo.opengl.MGLSurfaceView
+            android:id="@+id/surface_yuv"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_below="@+id/select_file_bt" />
+
+        <LinearLayout
+            android:id="@+id/title_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/surface_yuv"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_start"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:text="开始" />
+
+            <Button
+                android:id="@+id/bt_pause"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/bt_next"
+                android:text="暂停" />
+
+            <Button
+                android:id="@+id/bt_resume"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:text="继续" />
+
+            <Button
+                android:id="@+id/bt_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/bt_resume"
+                android:text="停止播放" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+{
+  "buildFiles": [
+    "/Users/pj1053/Downloads/blog/FFmusic-master/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/pj1053/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/debug/x86 --target clean"
+  ],
+  "libraries": {
+    "postproc-54-Debug-x86": {
+      "artifactName": "postproc-54",
+      "abi": "x86",
+      "output": "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/x86/libpostproc-54.so"
+    },
+    "swscale-4-Debug-x86": {
+      "artifactName": "swscale-4",
+      "abi": "x86",
+      "output": "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/x86/libswscale-4.so"
+    },
+    "avfilter-6-Debug-x86": {
+      "artifactName": "avfilter-6",
+      "abi": "x86",
+      "output": "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/x86/libavfilter-6.so"
+    },
+    "swresample-2-Debug-x86": {
+      "artifactName": "swresample-2",
+      "abi": "x86",
+      "output": "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/x86/libswresample-2.so"
+    },
+    "avcodec-57-Debug-x86": {
+      "artifactName": "avcodec-57",
+      "abi": "x86",
+      "output": "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/x86/libavcodec-57.so"
+    },
+    "avdevice-57-Debug-x86": {
+      "artifactName": "avdevice-57",
+      "abi": "x86",
+      "output": "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/x86/libavdevice-57.so"
+    },
+    "avformat-57-Debug-x86": {
+      "artifactName": "avformat-57",
+      "abi": "x86",
+      "output": "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/x86/libavformat-57.so"
+    },
+    "avutil-55-Debug-x86": {
+      "artifactName": "avutil-55",
+      "abi": "x86",
+      "output": "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/x86/libavutil-55.so"
+    },
+    "native-lib-Debug-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/pj1053/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/debug/x86 --target native-lib",
+      "abi": "x86",
+      "output": "/Users/pj1053/Downloads/blog/FFmusic-master/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so"
+    }
+  }
+}

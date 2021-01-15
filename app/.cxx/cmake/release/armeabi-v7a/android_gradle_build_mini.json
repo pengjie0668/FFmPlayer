@@ -1,0 +1,56 @@
+{
+  "buildFiles": [
+    "/Users/pj1053/Downloads/blog/FFmusic-master/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/pj1053/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "avutil-55-Release-armeabi-v7a": {
+      "artifactName": "avutil-55",
+      "abi": "armeabi-v7a",
+      "output": "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/armeabi-v7a/libavutil-55.so"
+    },
+    "swresample-2-Release-armeabi-v7a": {
+      "artifactName": "swresample-2",
+      "abi": "armeabi-v7a",
+      "output": "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/armeabi-v7a/libswresample-2.so"
+    },
+    "avformat-57-Release-armeabi-v7a": {
+      "artifactName": "avformat-57",
+      "abi": "armeabi-v7a",
+      "output": "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/armeabi-v7a/libavformat-57.so"
+    },
+    "native-lib-Release-armeabi-v7a": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/pj1053/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a --target native-lib",
+      "abi": "armeabi-v7a",
+      "output": "/Users/pj1053/Downloads/blog/FFmusic-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so"
+    },
+    "swscale-4-Release-armeabi-v7a": {
+      "artifactName": "swscale-4",
+      "abi": "armeabi-v7a",
+      "output": "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/armeabi-v7a/libswscale-4.so"
+    },
+    "avcodec-57-Release-armeabi-v7a": {
+      "artifactName": "avcodec-57",
+      "abi": "armeabi-v7a",
+      "output": "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/armeabi-v7a/libavcodec-57.so"
+    },
+    "avdevice-57-Release-armeabi-v7a": {
+      "artifactName": "avdevice-57",
+      "abi": "armeabi-v7a",
+      "output": "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/armeabi-v7a/libavdevice-57.so"
+    },
+    "avfilter-6-Release-armeabi-v7a": {
+      "artifactName": "avfilter-6",
+      "abi": "armeabi-v7a",
+      "output": "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/armeabi-v7a/libavfilter-6.so"
+    },
+    "postproc-54-Release-armeabi-v7a": {
+      "artifactName": "postproc-54",
+      "abi": "armeabi-v7a",
+      "output": "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/armeabi-v7a/libpostproc-54.so"
+    }
+  }
+}

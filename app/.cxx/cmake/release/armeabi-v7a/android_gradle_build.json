@@ -1,0 +1,228 @@
+
+{
+	"buildFiles" : [ "/Users/pj1053/Downloads/blog/FFmusic-master/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/pj1053/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"avcodec-57-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "avcodec-57",
+			"buildType" : "release",
+			"output" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/armeabi-v7a/libavcodec-57.so",
+			"toolchain" : "1989915864107001176"
+		},
+		"avdevice-57-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "avdevice-57",
+			"buildType" : "release",
+			"output" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/armeabi-v7a/libavdevice-57.so",
+			"toolchain" : "1989915864107001176"
+		},
+		"avfilter-6-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "avfilter-6",
+			"buildType" : "release",
+			"output" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/armeabi-v7a/libavfilter-6.so",
+			"toolchain" : "1989915864107001176"
+		},
+		"avformat-57-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "avformat-57",
+			"buildType" : "release",
+			"output" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/armeabi-v7a/libavformat-57.so",
+			"toolchain" : "1989915864107001176"
+		},
+		"avutil-55-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "avutil-55",
+			"buildType" : "release",
+			"output" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/armeabi-v7a/libavutil-55.so",
+			"toolchain" : "1989915864107001176"
+		},
+		"native-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/pj1053/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/FFCallJava.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/FFAudio.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/FFVideo.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/MFFmpeg.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/PlayStatus.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/AVPacketQueue.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/FFBufferQueue.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/PcmBean.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/soundtouch/SoundTouch/AAFilter.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/soundtouch/SoundTouch/FIFOSampleBuffer.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/soundtouch/SoundTouch/FIRFilter.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/soundtouch/SoundTouch/cpu_detect_x86.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/soundtouch/SoundTouch/sse_optimized.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/soundtouch/SoundTouch/RateTransposer.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/soundtouch/SoundTouch/SoundTouch.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/soundtouch/SoundTouch/InterpolateCubic.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/soundtouch/SoundTouch/InterpolateLinear.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/soundtouch/SoundTouch/InterpolateShannon.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/soundtouch/SoundTouch/TDStretch.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/soundtouch/SoundTouch/PeakFinder.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/SoundTouch  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/cpp/Listener.cpp",
+					"workingDirectory" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/.cxx/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "1989915864107001176"
+		},
+		"postproc-54-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "postproc-54",
+			"buildType" : "release",
+			"output" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/armeabi-v7a/libpostproc-54.so",
+			"toolchain" : "1989915864107001176"
+		},
+		"swresample-2-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "swresample-2",
+			"buildType" : "release",
+			"output" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/armeabi-v7a/libswresample-2.so",
+			"toolchain" : "1989915864107001176"
+		},
+		"swscale-4-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "swscale-4",
+			"buildType" : "release",
+			"output" : "/Users/pj1053/Downloads/blog/FFmusic-master/app/src/main/jniLibs/armeabi-v7a/libswscale-4.so",
+			"toolchain" : "1989915864107001176"
+		}
+	},
+	"toolchains" : 
+	{
+		"1989915864107001176" : 
+		{
+			"cCompilerExecutable" : "/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/pj1053/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
